@@ -32,7 +32,7 @@ final class iTunesSearchAPITests: XCTestCase {
         XCTAssertEqual(results.resultCount, 1)
         let result = results.results[0]
         XCTAssertEqual(result.sellerName, "Detail Technologies B.V.")
-        XCTAssertEqual(result.artistID, 1_563_218_361)
+        XCTAssertEqual(result.artistId, 1_563_218_361)
         XCTAssertEqual(result.releaseDate, "2022-11-08T08:00:00Z")
     }
 
@@ -42,7 +42,7 @@ final class iTunesSearchAPITests: XCTestCase {
         XCTAssertEqual(results.resultCount, 1)
         let result = results.results[0]
         XCTAssertEqual(result.sellerName, "Detail Technologies B.V.")
-        XCTAssertEqual(result.artistID, 1_563_218_361)
+        XCTAssertEqual(result.artistId, 1_563_218_361)
         XCTAssertEqual(result.releaseDate, "2022-11-08T08:00:00Z")
     }
 }
