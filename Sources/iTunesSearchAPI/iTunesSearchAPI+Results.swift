@@ -1,6 +1,6 @@
 public extension iTunesSearchAPI {
     struct Results: Codable {
-        public struct Result: Codable, Equatable {
+        public struct Result: Codable, Equatable, Hashable {
             public let screenshotUrls: [String]?
             public let artworkUrl60: String
             public let artworkUrl512: String?
